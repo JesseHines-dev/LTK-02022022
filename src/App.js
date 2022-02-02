@@ -1,16 +1,16 @@
-import { BrowserRouter } from 'react-router-dom';
 import './app.css';
-import Main from './components/main';
 import Footer from './components/footer';
+import DataTable from './components/search-form';
 import ResponsiveAppBar from './components/top-nav';
+import Main from './components/main';
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
       <ResponsiveAppBar  />
-      </BrowserRouter>
+      <Main />
+      <DataTable />
       <Footer />
     </div>
   );
