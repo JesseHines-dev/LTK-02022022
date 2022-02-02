@@ -4,7 +4,7 @@ import './footer.css';
 function Footer () {
     return (
         <div className='footer-div'>
-            <small>© 2022 LTK Holdings  |  All Rights Reserved</small>
+            <small className='footer-text'>© 2022 LTK Holdings  |  All Rights Reserved</small>
         </div>
     );
 }
